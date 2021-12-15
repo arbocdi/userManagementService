@@ -1,13 +1,11 @@
 package net.sf.userManagementService.api;
 
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 import lombok.experimental.Accessors;
 import net.sf.userManagementService.entity.User;
 
-@Getter
-@Setter
+@Data
 @Accessors(chain = true)
 @NoArgsConstructor
 public class UserWithoutPassword {
